@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_root"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:paddingLeft="10dip"
+              android:paddingRight="10dip"
+              >
+    <TextView android:id="@+id/text"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="11sp" />
+              
+    <TextView android:id="@+id/geotext"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="11sp" />
+              
+    <Button android:id="@+id/okdialogbutton"
+    		  android:layout_width="100px"
+              android:layout_height="40px"
+              android:text="OK"
+              android:textSize="11sp"
+              android:layout_gravity="center_vertical|center_horizontal"
+    		  />
+</LinearLayout>
