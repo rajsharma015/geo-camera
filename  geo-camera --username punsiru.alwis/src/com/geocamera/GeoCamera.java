@@ -34,6 +34,8 @@ import android.widget.Toast;
  * 
  * @author Punsiru Alwis
  *
+ *
+ *2009
  */
 public class GeoCamera extends MapActivity implements SurfaceHolder.Callback, OnClickListener{
 	
